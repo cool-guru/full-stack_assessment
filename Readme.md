@@ -18,18 +18,25 @@
 Ensure you already installed python3, node.js, angular-cli and MongoDB.
 
 * Clone the repository using following command:
-`git clone https://github.com/cool-guru/full-stack_assessment.git`
+```sh
+git clone https://github.com/cool-guru/full-stack_assessment.git
+```
 * Go to the project and run the FastAPI Server using following commands:
-`cd full-stack_assessment`
-`cd back-end`
-`pip install fastapi[all] pymongo pandas requests`
-`uvicorn main:app --realod`
+```sh
+cd full-stack_assessment
+cd back-end
+pip install fastapi[all] pymongo pandas requests
+uvicorn main:app --realod
+```
 * Go to the project, install the dependencies and run the Angular Application:
-`cd front_end`
-`npm install`
-`ng serve`
+```sh
+cd front_end
+npm install
+ng serve
+```
 
 Go to `http://localhost:4200` to check the project.
 
-Thanks,
+Best,
+
 Philip
