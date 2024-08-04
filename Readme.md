@@ -9,10 +9,10 @@
 
 ## Specification
 
-- Download CSV file which represent Courses data:
-- Build your back-end using Python 3+ and any web framework like Flask or FastAPI
-- Build 4 web services including the usage of MongoDB queries and write operations:
-- Create a UI using Angular 15+
+- Download CSV file which represent Courses data.
+- Build your back-end using Python 3+ and any web framework like Flask or FastAPI.
+- Build 4 web services including the usage of MongoDB queries and write operations.
+- Create a UI using Angular 15+.
 
 ## How to install
 Ensure you already installed python3, node.js, angular-cli and MongoDB.
