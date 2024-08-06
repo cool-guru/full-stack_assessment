@@ -70,7 +70,7 @@ export class CoursesListComponent implements OnInit {
 
     // Convert milliseconds to days
     const millisecondsPerDay = 1000 * 60 * 60 * 24;
-    const diffInDays = diffInMilliseconds / millisecondsPerDay;
+    const diffInDays = Math.ceil(diffInMilliseconds / millisecondsPerDay);
 
     return diffInDays;
   }
